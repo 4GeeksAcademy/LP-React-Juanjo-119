@@ -39,7 +39,6 @@ const Navbar = () => {
 };
 //HeroSection
 const HeroSection = () => (
-
     <header className="bg-light py-5 rounded my-4">
         <div className="container px-4 text-start">
             <h1 className="display-4 fw-bold">Bienvenido a React</h1>
@@ -51,7 +50,6 @@ const HeroSection = () => (
             </a>
         </div>
     </header>
-
 );
 //Card
 const Card = ({ title, text, img, btn, info }) => {
